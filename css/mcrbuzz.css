@@ -1,0 +1,63 @@
+body { background-color: #000000}
+h1 {
+  font-size: 60px;
+  font-family: 'Bungee Shade', cursive;
+  color: #000000;
+  justify-content: flex-start;
+  text-align: left;
+  line-height: 0.3em;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinte alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #f7e114, 0 0 8px
+    #f7e114, 0 0 10px #f7e114, 0 0 12px #f7e114;
+  }
+  to {
+    text-shadow: 0 0 2.5px #000000, 0 0 5px #f7e114, 0 0 10px #f7e114, 0 0 15px
+    #f7e114, 0 0 20px #f7e114, 0 0 25px #f7e114, 0 0 30px #f7e114;
+  }
+}
+div.topnav {
+  font-family: 'Codystar', cursive;
+}
+.topnav {
+  background-color: #000000;
+  margin: 0 auto;
+  padding: 5px;
+}
+.topnav a {
+  float: left
+  color: #f7e114;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 30px;
+  width: 5%;
+}
+.topnav a {
+  background-color: #000000;
+  color: #f7e114;
+  display: flex;
+  justify-content: flex-start;
+}
+.topnav a:hover {
+  font-size: 40px;
+  transition: 0.3s ease;
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #f7e114;
+  line-height: 1.5em;
+}
+.fa:hover {
+  opacity: 0.3;
