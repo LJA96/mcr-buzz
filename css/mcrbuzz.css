@@ -7,7 +7,7 @@ h1 {
   text-align: left;
   line-height: 0.3em;
   margin: 0 auto;
-  padding: 20px;
+  padding: 3rem;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinte alternate;
@@ -32,7 +32,6 @@ div.topnav {
   padding: 5px;
 }
 .topnav a {
-  float: left
   color: #f7e114;
   text-align: center;
   padding: 15px 15px;
@@ -51,7 +50,8 @@ div.topnav {
   transition: 0.3s ease;
 }
 .fa {
-  padding: 20px;
+  padding: 30px;
+  padding-top: 50px;
   font-size: 40px;
   width: 30px;
   text-align: center;
@@ -77,33 +77,118 @@ h3 {
   bottom: 100px;
 }
 .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
 
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
 
-  .flip-card-back {
-    background-color: #000000;
-    color: white;
-    transform: rotateY(180deg);
-  }
+.flip-card-back {
+  background-color: #000000;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.header-content {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.fullscreen-video-wrap {
+  text-align: center;
+}
+
+.btn {
+  background-color: #f7e114;
+  color: #131212;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Bungee Shade', cursive;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  border-radius:12px;
+}
+
+.fullpage {
+  background-color: yellow;
+  height: 100%;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+}
+
+.halfheight {
+  height: 50%;
+}
+
+.mobileheight {
+  position: relative;
+}
+
+.authorheader {
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  left: 10%
+  z-index: 9999;
+}
+
+.img1 {
+  background-image: url(https://www.visitmanchester.com/imageresizer/?image=%2Fdmsimgs%2Fspinningfields_849571891.jpg&action=ProductDetailFullWidth2);
+  background-size: cover;
+  background-position: center;
+}
+
+.img2 {
+  background-image: url(https://i2-prod.manchestereveningnews.co.uk/incoming/article8364759.ece/ALTERNATES/s1227b/castlefield-basin.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img3 {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/0f/7e/aa/ae/outside.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img4 {
+  background-image: url(https://www.manchesterbars.com/photos/oddest-outside1300.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img5 {
+  background-image: url(https://inews.co.uk/images-i.jpimedia.uk/imagefetch/https://inews.co.uk/wp-content/uploads/2019/02/mancstpeters.png?width=640);
+  background-size: cover;
+  background-position: center;
+}
+
+.img6 {
+  background-image: url(https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United%20Kingdom/Manchester-travel-B6PY6Y.jpg?imwidth=450);
+  background-size: cover;
+  background-position: center;
+}
