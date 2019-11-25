@@ -200,6 +200,11 @@ h3 {
   display: flex;
   align-items: flex-start;
 }
+.tag-line {
+  font-family: 'Codystar';
+  color: #f7e114;
+  padding: 20px 20px 20px 20px
+}
 
 
 }
