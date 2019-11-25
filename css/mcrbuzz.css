@@ -199,12 +199,16 @@ h3 {
 .about-container {
   display: flex;
   align-items: flex-start;
+  align-content: space-around;
 }
 .tag-line {
   font-family: 'Codystar';
   color: #f7e114;
   padding: 20px 20px 20px 20px
 }
-
-
+.about-text {
+  font-family: monospace;
+  font-weight: bold;
+  padding-left: 300px;
+  font-size: 20px;
 }
