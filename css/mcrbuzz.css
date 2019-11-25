@@ -209,6 +209,12 @@ h3 {
 .about-text {
   font-family: monospace;
   font-weight: bold;
-  padding-left: 300px;
   font-size: 20px;
+  color: grey;
+  padding-left: 300px;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
 }
