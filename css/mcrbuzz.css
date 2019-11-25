@@ -194,9 +194,12 @@ h3 {
 }
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: ;
 }
-#about-container {
+.about-container {
   display: flex;
+  align-items: flex-start;
+}
+
 
 }
