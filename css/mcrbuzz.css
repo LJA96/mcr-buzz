@@ -192,3 +192,11 @@ h3 {
   background-size: cover;
   background-position: center;
 }
+.header {
+  display: flex;
+  justify-content: center;
+}
+#about-container {
+  display: flex;
+
+}
