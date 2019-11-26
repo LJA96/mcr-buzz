@@ -1,4 +1,4 @@
-body { background-color: #000000}
+body {background-color: #000000}
 h1 {
   font-size: 60px;
   font-family: 'Bungee Shade', cursive;
@@ -15,12 +15,12 @@ h1 {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 2px #000000, 0 0 4px #000000, 0 0 6px #f7e114, 0 0 8px
-    #f7e114, 0 0 10px #f7e114, 0 0 12px #f7e114;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000, 0 0 7px #f7e114, 0 0 9px
+    #f7e114, 0 0 11px #f7e114, 0 0 13px #f7e114;
   }
   to {
-    text-shadow: 0 0 2.5px #000000, 0 0 5px #f7e114, 0 0 10px #f7e114, 0 0 15px
-    #f7e114, 0 0 20px #f7e114, 0 0 25px #f7e114, 0 0 30px #f7e114;
+    text-shadow: 0 0 4px #000000, 0 0 8px #f7e114, 0 0 12px #f7e114, 0 0 16px
+    #f7e114, 0 0 20px #f7e114, 0 0 24px #f7e114, 0 0 28px #f7e114;
   }
 }
 div.topnav {
@@ -30,29 +30,25 @@ div.topnav {
   background-color: #000000;
   margin: 0 auto;
   padding: 5px;
+  position: absolute;
 }
 .topnav a {
   color: #f7e114;
-  text-align: center;
+  text-align: left;
   padding: 15px 15px;
   text-decoration: none;
-  font-size: 30px;
-  width: 5%;
-}
-.topnav a {
+  font-size: 20px;
   background-color: #000000;
-  color: #f7e114;
   display: flex;
   justify-content: flex-start;
 }
 .topnav a:hover {
-  font-size: 40px;
+  font-size: 30px;
   transition: 0.3s ease;
 }
 .fa {
   padding: 30px;
-  padding-top: 50px;
-  font-size: 40px;
+  font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;
@@ -60,52 +56,13 @@ div.topnav {
   line-height: 1.5em;
 }
 .fa:hover {
-  opacity: 0.3;
+  text-decoration: none;
+  color: #bfae0d;
 }
 h3 {
   font-family: 'Codystar', cursive;
   font-size: 40px;
   color: #f7e114;
-}
-.flip-card {
-  background-color: #transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-  margin: 20%;
-  position: absolute;
-  bottom: 100px;
-}
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #000000;
-  color: white;
-  transform: rotateY(180deg);
 }
 
 .header-content {
@@ -130,8 +87,8 @@ h3 {
 
 .fullpage {
   background-color: yellow;
-  height: 100%;
-  width: 90%;
+  height: 305%;
+  width: 101%;
 }
 
 .row {
@@ -150,6 +107,7 @@ h3 {
 }
 
 .authorheader {
+  background-color: #000000;
   position: absolute;
   text-align: center;
   top: 80%;
@@ -158,37 +116,93 @@ h3 {
 }
 
 .img1 {
-  background-image: url(https://www.visitmanchester.com/imageresizer/?image=%2Fdmsimgs%2Fspinningfields_849571891.jpg&action=ProductDetailFullWidth2);
+  background-image: url(../images/spinningfields.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.img1:hover {
+  opacity: 0.6;
 }
 
 .img2 {
-  background-image: url(https://i2-prod.manchestereveningnews.co.uk/incoming/article8364759.ece/ALTERNATES/s1227b/castlefield-basin.jpg);
+  background-image: url(../images/castlefield.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.img2:hover {
+  opacity: 0.6;
 }
 
 .img3 {
-  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/0f/7e/aa/ae/outside.jpg);
+  background-image: url(../images/northernquarter.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.img3:hover {
+  opacity: 0.6;
 }
 
 .img4 {
-  background-image: url(https://www.manchesterbars.com/photos/oddest-outside1300.jpg);
+  background-image: url(../images/deansgatenew.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.img4:hover {
+  opacity: 0.6;
 }
 
 .img5 {
-  background-image: url(https://inews.co.uk/images-i.jpimedia.uk/imagefetch/https://inews.co.uk/wp-content/uploads/2019/02/mancstpeters.png?width=640);
+  background-image: url(../images/centre.png);
   background-size: cover;
   background-position: center;
 }
 
+.img5:hover {
+  opacity: 0.6;
+}
+
 .img6 {
-  background-image: url(https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/United%20Kingdom/Manchester-travel-B6PY6Y.jpg?imwidth=450);
+  background-image: url(../images/ancoats.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.img6:hover {
+  opacity: 0.6;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+}
+.tag-line {
+  font-family: 'Codystar';
+  color: #f7e114;
+  padding-left: 100px
+}
+.about-text {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+  padding-left: 300px;
+  padding-bottom: 300px;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-family: 'Codystar'
+}
+input[type="Submit"] {
+  background-color: #f7e114;
 }
