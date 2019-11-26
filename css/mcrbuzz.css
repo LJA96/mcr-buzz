@@ -46,6 +46,10 @@ div.topnav {
   font-size: 30px;
   transition: 0.3s ease;
 }
+.col-md-2 a {
+  text-decoration: none;
+}
+
 .fa {
   padding: 30px;
   font-size: 30px;
