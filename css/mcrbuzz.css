@@ -213,11 +213,7 @@ h3 {
   font-size: 20px;
   color: grey;
   padding-left: 300px;
-}
-.socialmedia {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
+  padding-bottom: 300px;
 }
 input {
   border: 0;
