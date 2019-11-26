@@ -198,7 +198,7 @@ h3 {
 }
 .about-container {
   display: flex;
-  align-items: flex-start;
+  text-align: center;
   align-content: space-around;
 }
 .tag-line {
