@@ -192,19 +192,20 @@ h3 {
   background-size: cover;
   background-position: center;
 }
-.header {
-  display: flex;
-  justify-content: ;
-}
 .about-container {
   display: flex;
-  text-align: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   align-content: space-around;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
 }
 .tag-line {
   font-family: 'Codystar';
   color: #f7e114;
-  padding: 20px 20px 20px 20px
+  padding-left: 100px
 }
 .about-text {
   font-family: monospace;
@@ -217,4 +218,12 @@ h3 {
   display: flex;
   flex-direction: row;
   align-content: flex-start;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-family: 'Codystar'
+}
+input[type="Submit"] {
+  background-color: #f7e114;
 }
