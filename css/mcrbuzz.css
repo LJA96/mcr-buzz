@@ -157,6 +157,10 @@ h3 {
   z-index: 9999;
 }
 
+.authorheader a{
+  text-decoration: none;
+}
+
 .img1 {
   background-image: url(https://www.visitmanchester.com/imageresizer/?image=%2Fdmsimgs%2Fspinningfields_849571891.jpg&action=ProductDetailFullWidth2);
   background-size: cover;
